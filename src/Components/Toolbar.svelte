@@ -9,7 +9,7 @@
 
 <style>
   #toolbar {
-    position: absolute;
+    position: fixed;
     width: 100%;
     border-top: 4px solid rgb(133, 0, 0);
     bottom: 0;

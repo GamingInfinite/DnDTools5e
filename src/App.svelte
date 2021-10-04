@@ -1,8 +1,12 @@
 <script lang="ts">
-  import Header from "./Components/Header.svelte";
-  import Footer from "./Components/Footer.svelte";
-  import Toolbar from "./Components/Toolbar.svelte";
-  import Tab from "./Components/Tab.svelte";
+  import { Header, Footer, Toolbar, Tab } from "./Components/components.js";
+  import { Home, Player, DungeonMaster } from "./Components/Tabs/tabs.js";
+  import { selectedTab } from "./Components/store.js"
+
+  const options = {
+    tabName: ["Player", "Home", "DungeonMaster"],
+    components: [Player, Home, DungeonMaster],
+  };
 </script>
 
 <div class="app">
@@ -13,13 +17,17 @@
   </div>
   <div class="row">
     <div class="col">
-      <div class="d-flex justify-content-center" id="toolbar-content" />
+      <div class="d-flex justify-content-center">
+        <svelte:component
+          this={options.components[options.tabName.indexOf($selectedTab)]}
+        />
+      </div>
     </div>
   </div>
   <Toolbar>
-    <Tab>Player</Tab>
-    <Tab>Home</Tab>
-    <Tab>Dungeon Master</Tab>
+    <Tab tabName="Player">Player</Tab>
+    <Tab tabName="Home">Home</Tab>
+    <Tab tabName="DungeonMaster">Dungeon Master</Tab>
   </Toolbar>
   <Footer />
 </div>
