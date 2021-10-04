@@ -13,6 +13,8 @@
 .powered-by {
   max-height: 100px;
   max-width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .underconstruction {

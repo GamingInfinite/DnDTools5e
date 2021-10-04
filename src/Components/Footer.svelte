@@ -9,6 +9,8 @@
   <div class="col">
     <div class="d-flex justify-content-center">
       <img class="powered-by" src="../images/svelte.png" alt="svelte" />
+      <img class="powered-by" src="../images/snowpack.png" alt="snowpack">
+      <img class="powered-by" src="../images/filepond.png" alt="filepond">
     </div>
   </div>
 </div>

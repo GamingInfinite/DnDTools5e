@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Header, Footer, Toolbar, Tab } from "./Components/components.js";
   import { Home, Player, DungeonMaster } from "./Components/Tabs/tabs.js";
-  import { selectedTab } from "./Components/store.js"
+  import { selectedTab } from "./Components/store.js";
 
   const options = {
     tabName: ["Player", "Home", "DungeonMaster"],
@@ -24,10 +24,10 @@
       </div>
     </div>
   </div>
+  <Footer />
   <Toolbar>
     <Tab tabName="Player">Player</Tab>
     <Tab tabName="Home">Home</Tab>
     <Tab tabName="DungeonMaster">Dungeon Master</Tab>
   </Toolbar>
-  <Footer />
 </div>
