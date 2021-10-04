@@ -18,7 +18,7 @@
   #tab {
     height: 50px;
     opacity: 1;
-    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
   }
 
   #tab:hover {
