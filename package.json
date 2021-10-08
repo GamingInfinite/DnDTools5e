@@ -1,17 +1,20 @@
 {
   "devDependencies": {
     "@snowpack/plugin-svelte": "^3.7.0",
+    "@snowpack/plugin-webpack": "^3.0.0",
     "@tsconfig/svelte": "^2.0.1",
     "rollup": "^2.58.0",
     "snowpack": "^3.8.8",
     "svelte": "^3.43.1",
     "svelte-loader": "^3.1.2",
     "svelte-preprocess": "^4.9.8",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+    "webpack": "^4.44.2"
   },
   "dependencies": {
     "@popperjs/core": "^2.10.1",
     "bootstrap": "^5.1.1",
+    "cors": "^2.8.5",
     "filepond": "^4.30.0",
     "svelte-filepond": "^0.2.0"
   },

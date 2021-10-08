@@ -9,26 +9,50 @@
           }
         },
         "eladrin": {
-          "name": "Eladrin"
+          "name": "Eladrin",
+          "info": {
+            "description": ""
+          }
         },
         "drow": {
-          "name": "Drow"
+          "name": "Drow",
+          "info": {
+            "description": ""
+          }
         },
         "mos": {
-          "name": "Mark of Shadow"
+          "name": "Mark of Shadow",
+          "info": {
+            "description": ""
+          }
         },
         "pallid": {
-          "name": "Pallid"
+          "name": "Pallid",
+          "info": {
+            "description": ""
+          }
         },
         "sea": {
-          "name": "Sea"
+          "name": "Sea",
+          "info": {
+            "description": ""
+          }
         },
         "shadar-kai": {
-          "name": "Shadar-Kai"
+          "name": "Shadar-Kai",
+          "info": {
+            "description": ""
+          }
         },
         "wood": {
-          "name": "Wood"
+          "name": "Wood",
+          "info": {
+            "description": ""
+          }
         }
+      },
+      "info": {
+        "description": ""
       }
     },
     "aasimar": {
@@ -53,7 +77,150 @@
         }
       },
       "info": {
+        "name": "Aasimar",
         "description": "Aasimar bear within their souls the light of the heavens. They are descended from humans with a touch of the power of Mount Celestia, the divine realm of many lawful good deities. Aasimar are born to serve as champions of the gods, their births hailed as blessed events. They are a people of otherworldly visages, with luminous features that reveal their celestial heritage."
+      }
+    },
+    "genasi": {
+      "subraces": {
+        "air": {
+          "name": "Air",
+          "info": {
+            "description": "As an air genasi, you are descended from the djinn. As changeable as the weather, your moods shift from calm to wild and violent with little warning, but these storms rarely last long.\nAir genasi typically have light blue skin, hair, and eyes. A faint but constant breeze accompanies them, tousling the hair and stirring the clothing. Some air genasi speak with breathy voices, marked by a faint echo. A few display odd patterns in their flesh or grow crystals from their scalps."
+          }
+        },
+        "earth": {
+          "name": "Earth",
+          "info": {
+            "description": "As an earth genasi, you are descended from the cruel and greedy dao, though you are not necessarily evil. You have inherited some measure of control over earth, reveling in superior strength and solid power. You tend to avoid rash decisions, pausing long enough to consider your options before taking action.\nElemental earth manifests differently from one individual to the next. Some earth genasi always have bits of dust falling from their bodies and mud clinging to their clothes, never getting clean no matter how often they bathe. Others are as shiny and polished as gemstones, with skin tones of deep brown or black, eyes sparkling like agates. Earth genasi can also have smooth metallic flesh, dull iron skin spotted with rust, a pebbled and rough hide, or even a coating of tiny embedded crystals. The most arresting have fissures in their flesh, from which faint light shines."
+          }
+        },
+        "fire": {
+          "name": "Fire",
+          "info": {
+            "description": "As a fire genasi, you have inherited the volatile mood and keen mind of the efreet. You tend toward impatience and making snap judgments. Rather than hide your distinctive appearance, you exult in it.\nNearly all fire genasi are feverishly hot as if burning inside, an impression reinforced by flaming red, coal-black, or ash-gray skin tones. The more human-looking have fiery red hair that writhes under extreme emotion, while more exotic specimens sport actual flames dancing on their heads. Fire genasi voices might sound like crackling flames, and their eyes flare when angered. Some are accompanied by the faint scent of brimstone."
+          }
+        },
+        "water": {
+          "name": "Water",
+          "info": {
+            "description": "The lapping of waves, the spray of sea foam on the wind, the ocean depths, all of these things call to your heart. You wander freely and take pride in your independence, though others might consider you selfish.\nMost water genasi look as if they just finished bathing, with beads of moisture collecting on their skin and hair. They smell of fresh rain and clean water. Blue or green skin is common, and most have somewhat overlarge eyes, blue-black in color. A water genasi's hair might float freely, swaying and waving as if underwater. Some have voices with undertones reminiscent of whale song or trickling streams."
+          }
+        }
+      },
+      "info": {
+        "name": "Genasi",
+        "description": "Those who think of other planes at all consider them remote, distant realms, but planar influence can be felt throughout the world. It sometimes manifests in beings who, through an accident of birth, carry the power of the planes in their blood. The genasi are one such people, the offspring of genies and mortals.\nThe Elemental Planes are often inhospitable to natives of the Material Plane: crushing earth, searing flames, boundless skies, and endless seas make visiting these places dangerous for even a short time. The powerful genies, however, do not face such troubles when venturing into the mortal world. They adapt well to the mingled elements of the Material Plane, and they sometimes visit whether of their own volition or compelled by magic. Some genies can adopt mortal guise and travel incognito.\nDuring these visits, a mortal might catch a genies eye. Friendship forms, romance blooms, and sometimes children result. These children are genasi: individuals with ties to two worlds, yet belonging to neither. Some genasi are born of mortal-genie unions, others have two genasi as parents, and a rare few have a genie further up their family tree, manifesting an elemental heritage that's lain dormant for generations.\nOccasionally, genasi result from exposure to a surge of elemental power, through phenomena such as an eruption from the Inner Planes or a planar convergence. Elemental energy saturates any creatures in the area and might alter their nature enough that their offspring with other mortals are born as genasi."
+      }
+    },
+    "human": {
+      "subraces": {},
+      "info": {
+        "name": "Human",
+        "description": "In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that's why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds."
+      }
+    },
+    "dwarf": {
+      "subraces": {
+        "duergar": {
+          "name": "Duergar",
+          "info": {
+            "description": "The gray dwarves, or duergar, live deep in the Underdark. After delving deeper than any other dwarves, they were enslaved by mind flayers for eons. Although they eventually won their freedom, these grim, ashen-skinned dwarves now take slaves of their own and are as tyrannical as their former masters.\nPhysically similar to other dwarves in some ways, duergar are wiry and lean, with black eyes and bald heads, with the males growing long, unkempt, gray beards.\nDuergar value toil above all else. Showing emotions other than grim determination or wrath is frowned on in their culture, but they can sometimes seem joyful when at work. They have the typical dwarven appreciation for order, tradition, and impeccable craftsmanship, but their goods are purely utilitarian, disdaining aesthetic or artistic value.\nFew duergar become adventurers, fewer still on the surface world, because they are a hidebound and suspicious race. Those who leave their subterranean cities are usually exiles. Check with your Dungeon Master to see if you can play a gray dwarf character."
+          }
+        },
+        "hill": {
+          "name": "Hill",
+          "info": {
+            "description": "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerun in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting."
+          }
+        },
+        "mountain": {
+          "name": "Mountain",
+          "info": {
+            "description": "As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You're probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerun, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves."
+          }
+        }
+      },
+      "info": {
+        "name": "Dwarf",
+        "description": "Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs-these common threads unite all dwarves."
+      }
+    },
+    "tabaxi": {
+      "subraces": {},
+      "info": {
+        "name": "Tabaxi",
+        "description": "Hailing from a strange and distant land, wandering tabaxi are catlike humanoids driven by curiosity to collect interesting artifacts, gather tales and stories, and lay eyes on all the world's wonders. Ultimate travelers, the inquisitive tabaxi rarely stay in one place for long. Their innate nature pushes them to leave no secrets uncovered, no treasures or legends lost."
+      }
+    },
+    "tiefling": {
+      "subraces": {
+        "asmodeus": {
+          "name": "Asmodeus",
+          "info": {
+            "description": "The tieflings connected to Nessus command the power of fire and darkness, guided by a keener than normal intellect, as befits those linked to Asmodeus himself."
+          }
+        },
+        "baalzebul": {
+          "name": "Baalzebul",
+          "info": {
+            "description": "The crumbling realm of Maladomini is ruled by Baalzebul, who excels at corrupting those whose minor sins can be transformed into acts of damnation. Tieflings linked to this archdevil can corrupt others both physically and psychically."
+          }
+        },
+        "dispater": {
+          "name": "Dispater",
+          "info": {
+            "description": "The great city of Dis occupies most of Hell's second layer. It is a place where secrets are uncovered and shared with the highest bidder, making tieflings tied to Dispater excellent spies and infiltrators."
+          }
+        },
+        "fierna": {
+          "name": "Fierna",
+          "info": {
+            "description": "A master manipulator, Fierna grants tieflings tied to her forceful personalities."
+          }
+        },
+        "glasya": {
+          "name": "Glasya",
+          "info": {
+            "description": "Glasya, Hell's criminal mastermind, grants her tieflings magic that is useful for committing heists."
+          }
+        },
+        "levistus": {
+          "name": "Levistus",
+          "info": {
+            "description": "Frozen Stygia is ruled by Levistus, an archdevil known for offering bargains to those who face an inescapable doom."
+          }
+        },
+        "mammon": {
+          "name": "Mammon",
+          "info": {
+            "description": "The great miser Mammon loves coins above all else. Tieflings tied to him excel at gathering and safeguarding wealth."
+          }
+        },
+        "mephistopheles": {
+          "name": "Mephistopheles",
+          "info": {
+            "description": "In the frozen realm of Cania, Mephistopheles offers arcane power to those who entreat with him. Tieflings linked to him master some arcane magic."
+          }
+        },
+        "zariel": {
+          "name": "Zariel",
+          "info": {
+            "description": "Tieflings with a blood tie to Zariel are stronger than the typical tiefling and receive magical abilities that aid them in battle."
+          }
+        }
+      },
+      "info": {
+        "name": "Tiefling",
+        "description": "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus-overlord of the Nine Hells-into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children's children will always be held accountable."
+      }
+    }
+  },
+  "classes": {
+    "warlock": {
+      "name": "Warlock",
+      "info": {
+        "description": "With a pseudodragon curled on his shoulder, a young elf in golden robes smiles warmly, weaving a magical charm into his honeyed words and bending the palace sentinel to his will.\nAs flames spring to life in her hands, a wizened human whispers the secret name of her demonic patron, infusing her spell with fiendish magic.\nShifting his gaze between a battered tome and the odd alignment of the stars overhead, a wild-eyed tiefling chants the mystic ritual that will open a doorway to a distant world.\nWarlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular. Drawing on the ancient knowledge of beings such as fey nobles, demons, devils, hags, and alien entities of the Far Realm, warlocks piece together arcane secrets to bolster their own power."
       }
     }
   }
